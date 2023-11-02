@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button {
+  @apply py-2 px-6 font-semibold text-white bg-gradient-to-r from-violet-500 to-purple-500 rounded-md cursor-pointer;
+}
+.secondary-button {
+  @apply py-2 px-6 font-semibold bg-gray-200 rounded-md cursor-pointer dark:text-black;
+}
+a.active {
+  @apply font-bold ;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.24);
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.full-bleed-1 {
+  box-shadow: 0 0 0 100vmax black;
+  clip-path: inset(0 -100vmax);
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 15px;
+  }
+}
