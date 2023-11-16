@@ -60,7 +60,7 @@ function App() {
     },
     {
       title: "Game Wikipedia",
-      description: "Welcome to my game dictionary website, where gaming enthusiasts and novices alike can explore an extensive collection of gaming terminology, tips, and insights. With a sleek and intuitive design built using HTML, CSS, JavaScript, React, and Tailwind CSS, we've created a user-friendly platform that simplifies the complex jargon of the gaming world.",
+      description: "Welcome to my game dictionary website, where gaming enthusiasts and novices alike can explore an extensive collection of gaming terminology, tips, and insights. With a sleek and intuitive design built using HTML, CSS, JavaScript, React, and Tailwind CSS, I've created a user-friendly platform that simplifies the complex jargon of the gaming world.",
       techStack: [htmlIcon, cssIcon, jsIcon, reactIcon, tailwindIcon],
       image: gamewiki,
       demo: 'https://gamewikis.netlify.app/',
